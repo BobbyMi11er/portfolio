@@ -1,0 +1,190 @@
+{
+  "projects": [
+    {
+      "projectName": "MissionSafe",
+      "projectDescription": "Implemented backend components and interfaces for a nonprofit safety app as part of Change Plus Plus.",
+      "bulletPoints": [
+        "Implemented MongoDB controllers, models, and routers.",
+        "Built a server-client interface to abstract front-end access to backend services.",
+        "Collaborated within an Agile Scrum team to deliver features securely and reliably."
+      ],
+      "skillsUsed": ["MongoDB", "Node.js", "Express", "JavaScript", "REST APIs", "Git", "Agile"],
+      "dateRange": "Jan 2024 - May 2024",
+      "githubUrl": "https://github.com/ChangePlusPlusVandy/NewMissionSafe-frontend"
+    },
+    {
+      "projectName": "Backpacks For The Streets",
+      "projectDescription": "Developed mobile app features focused on authentication and content posting for a nonprofit.",
+      "bulletPoints": [
+        "Developed React Native user registration flow.",
+        "Built post creation and display system.",
+        "Implemented authentication with Firebase Authentication."
+      ],
+      "skillsUsed": ["React Native", "Firebase Authentication", "JavaScript", "Git"],
+      "dateRange": "Sep 2023 - Dec 2023",
+      "githubUrl": "https://github.com/ChangePlusPlusVandy/bfts-frontend"
+    },
+    {
+      "projectName": "LLM Email Digest",
+      "projectDescription": "Python tool that summarizes daily emails using local LLMs with chain-of-thought prompting.",
+      "bulletPoints": [
+        "Leveraged local LLMs to generate concise daily email digests.",
+        "Applied chain-of-thought and few-shot prompting to improve summary quality."
+      ],
+      "skillsUsed": ["Python", "LLMs", "Prompt Engineering", "NLP", "Git"],
+      "dateRange": "Feb 2024 - Mar 2024",
+      "githubUrl": "https://github.com/BobbyMi11er/LLM-Email-Summarizer"
+    },
+    {
+      "projectName": "Ticket Earner",
+      "projectDescription": "Containerized full-stack app deployed on AWS EC2 that integrates with Musixmatch for lyric fetching.",
+      "bulletPoints": [
+        "Dockerized a React/Express application for consistent deployments.",
+        "Deployed and managed the service on AWS EC2.",
+        "Integrated Musixmatch API to fetch song lyrics."
+      ],
+      "skillsUsed": ["Docker", "React", "Node.js", "Express", "AWS EC2", "REST APIs", "Git", "Docker"],
+      "dateRange": "Nov 2023 - Jan 2024",
+      "githubUrl": "https://github.com/BobbyMi11er/Ticket-Earner"
+    },
+    {
+      "projectName": "ReuseVandy",
+      "projectDescription": "Full-stack marketplace mobile app with an AWS backend and MySQL database.",
+      "bulletPoints": [
+        "Built and deployed a React Native app for a campus reuse marketplace.",
+        "Implemented backend services on AWS with a MySQL database.",
+        "Ensured reliable data flow between the mobile client and backend."
+      ],
+      "skillsUsed": ["React Native", "AWS", "MySQL", "Node.js", "API Design", "Git"],
+      "dateRange": "Jan 2023 - May 2023",
+      "githubUrl": "https://github.com/BobbyMi11er/Reuse-Vandy"
+    }
+    ],
+
+    "jobs": [
+    {
+      "projectName": "Wells Fargo",
+      "projectDescription": "Summer 2025 Technology Program Intern (Software Engineering)",
+      "bulletPoints": [
+        "Built a scalable Spring Boot batch job to automate Jira ticket creation, reducing Scrum Master workload by 15%.",
+        "Defined MongoDB schemas and multi-table SQL queries while guiding a peer through API integration and system design.",
+        "Met enterprise code standards via senior engineer code reviews and achieved 96% unit test coverage."
+      ],
+      "skillsUsed": ["Java", "Spring Boot", "MongoDB", "SQL", "Jira", "Unit Testing", "Git"],
+      "image": {
+        "src": "",
+        "name": ""
+      },
+      "dateRange": "May 2025 - Aug 2025"
+    },
+    {
+      "projectName": "Legal Decoder",
+      "projectDescription": "Summer 2024 Software Engineering Intern",
+      "bulletPoints": [
+        "Evolved a text-to-SQL chatbot into an LLM agent workflow using vector search and few-shot prompting.",
+        "Drove over 90% cost reduction and a 45% accuracy increase through iterative improvements.",
+        "Communicated progress in stand-ups and product demos to developers and executives."
+      ],
+      "skillsUsed": ["Python", "LLMs", "Prompt Engineering", "Vector Search", "SQL", "Few-shot Prompting", "Git"],
+      "image": {
+        "src": "",
+        "name": ""
+      },
+      "dateRange": "May 2024 - Aug 2024"
+  },
+    {
+      "projectName": "Vanderbilt University Department of Computer Science",
+      "projectDescription": "Undergraduate Teaching Assistant – Programming Languages | Programming and Problem-Solving (Aug 2023 – Present)",
+      "bulletPoints": [
+        "Conduct 3 weekly office hours, providing one-on-one assistance and troubleshooting code.",
+        "Assist in grading assignments, projects, and exams for courses with 225+ students.",
+        "Teach and clarify paradigms across a wide range of programming languages."
+      ],
+      "skillsUsed": ["Communication", "Mentorship", "Debugging", "Code Review", "Problem Solving"],
+      "image": {
+        "src": "",
+        "name": ""
+      },
+      "dateRange": "Aug 2023 - Present"
+    }
+    ],
+
+    "coursework" : [
+        {
+            "projectName" : "Principles of Software Engineering",
+            "projectDescription" : "Software Engineer Intern",
+            "bulletPoints" : [],
+            "skillsUsed" : ["Git", "React"],
+            "image":
+                {
+                    "src": "",
+                    "name": ""
+                }
+        },
+        {
+            "projectName" : "Database Management Systems",
+            "projectDescription" : "Software Engineer Intern",
+            "bulletPoints" : [],
+            "skillsUsed" : ["Git", "React"],
+            "image":
+                {
+                    "src": "",
+                    "name": ""
+                }
+        },
+        {
+            "projectName" : "Intermediate Software Design",
+            "projectDescription" : "Software Engineer Intern",
+            "bulletPoints" : [],
+            "skillsUsed" : ["Git", "React"],
+            "image":
+                {
+                    "src": "",
+                    "name": ""
+                }
+        },
+        {
+            "projectName" : "Artificial Intelligence",
+            "projectDescription" : "Software Engineer Intern",
+            "bulletPoints" : [],
+            "skillsUsed" : ["Git", "React"],
+            "image":
+                {
+                    "src": "",
+                    "name": ""
+                }
+        },
+        {
+            "projectName" : "Project in Autonomous Vehicles",
+            "projectDescription" : "Software Engineer Intern",
+            "bulletPoints" : [],
+            "skillsUsed" : ["Git", "React"],
+            "image":
+                {
+                    "src": "",
+                    "name": ""
+                }
+        },
+        {
+            "projectName" : "Principles of Modern Programming",
+            "projectDescription" : "Software Engineer Intern",
+            "bulletPoints" : [],
+            "skillsUsed" : ["Git", "React"],
+            "image":
+                {
+                    "src": "",
+                    "name": ""
+                }
+        }, {
+            "projectName" : "Introduction to Cloud Computing",
+            "projectDescription" : "Software Engineer Intern",
+            "bulletPoints" : [],
+            "skillsUsed" : ["Git", "React"],
+            "image":
+                {
+                    "src": "",
+                    "name": ""
+                }
+        }
+    ]
+}
