@@ -4,16 +4,29 @@
       "projectName": "ReuseVandy",
       "projectDescription": "Full-stack marketplace mobile app with an AWS backend and MySQL database.",
       "bulletPoints": [
-        "Built and deployed a React Native app for a campus reuse marketplace.",
+        "Built and deployed a React Native app for a campus marketplace.",
         "Implemented backend services on AWS with a MySQL database.",
-        "Ensured reliable data flow between the mobile client and backend."
+        "Ensured reliable data flow between the mobile client and backend.",
+        "Designed system from end-to-end and acheieved > 90% test coverage."
       ],
       "skillsUsed": ["React Native", "AWS", "MySQL", "Node.js", "API Design", "Git"],
       "dateRange": "Sep 2024 - Dec 2024",
       "githubUrl": "https://github.com/BobbyMi11er/Reuse-Vandy"
     },
     {
-      "projectName": "MissionSafe",
+      "projectName": "Ticket Earner",
+      "projectDescription": "Containerized full-stack lyric quizzing app.",
+      "bulletPoints": [
+        "Dockerized a React/Express application for consistent deployments.",
+        "Deployed and managed the service on AWS EC2.",
+        "Integrated Musixmatch API to fetch song lyrics."
+      ],
+      "skillsUsed": ["Docker", "React", "Node.js", "Express", "AWS EC2", "REST APIs", "Git", "Docker"],
+      "dateRange": "Nov 2023 - Jan 2024",
+      "githubUrl": "https://github.com/BobbyMi11er/Ticket-Earner"
+    },
+    {
+      "projectName": "MissionSafe Web App",
       "projectDescription": "Implemented backend components and interfaces for a nonprofit safety app as part of Change Plus Plus.",
       "bulletPoints": [
         "Implemented MongoDB controllers, models, and routers.",
@@ -31,21 +44,9 @@
         "Leveraged local LLMs to generate concise daily email digests.",
         "Applied chain-of-thought and few-shot prompting to improve summary quality."
       ],
-      "skillsUsed": ["Python", "LLMs", "Prompt Engineering", "NLP", "Git"],
+      "skillsUsed": ["Python", "LLMs", "Prompt Engineering", "Git"],
       "dateRange": "Feb 2024 - Mar 2024",
       "githubUrl": "https://github.com/BobbyMi11er/LLM-Email-Summarizer"
-    },
-    {
-      "projectName": "Ticket Earner",
-      "projectDescription": "Containerized full-stack app deployed on AWS EC2 that integrates with Musixmatch for lyric fetching.",
-      "bulletPoints": [
-        "Dockerized a React/Express application for consistent deployments.",
-        "Deployed and managed the service on AWS EC2.",
-        "Integrated Musixmatch API to fetch song lyrics."
-      ],
-      "skillsUsed": ["Docker", "React", "Node.js", "Express", "AWS EC2", "REST APIs", "Git", "Docker"],
-      "dateRange": "Nov 2023 - Jan 2024",
-      "githubUrl": "https://github.com/BobbyMi11er/Ticket-Earner"
     },
     {
       "projectName": "Backpacks For The Streets",
