@@ -11,7 +11,15 @@ export default function ProjectElement(project: ProjectProps) {
             <Card sx={{display: "flex", flexDirection:"column", position: "relative"}}>
                 <Box sx={{display: "flex", flexDirection: "column", position: "relative"}}>
                     <CardContent>
-                        <Box sx={{ position: "absolute", top: 8, right: 16 }}>
+                        <Box
+                            sx={{
+                                position: { xs: "static", sm: "absolute" },
+                                top: { sm: 8 },
+                                right: { sm: 16 },
+                                mb: { xs: 1, sm: 0 },
+                                textAlign: { xs: "center", sm: "right" }
+                            }}
+                        >
                             <Typography variant="body2" color="text.secondary">
                                 {project.obj.dateRange}
                             </Typography>
@@ -40,11 +48,28 @@ export default function ProjectElement(project: ProjectProps) {
                 </Box>
                 <Box>
                     <CardContent>
-                        <Stack direction="row" spacing={1}>
+                        <Box
+                            sx={{
+                                display: { xs: "block", sm: "flex" },
+                                overflowX: { xs: "auto", sm: "visible" },
+                                whiteSpace: { xs: "nowrap", sm: "normal" },
+                                pb: { xs: 1, sm: 0 }
+                            }}
+                        >
                             {project.obj.skillsUsed.map((skill, i) => (
-                                <Chip key={i} label={skill}/>
+                                <Chip
+                                    key={i}
+                                    label={skill}
+                                    sx={{
+                                        mr: 1,
+                                        mb: { xs: 1, sm: 0 },
+                                        display: "inline-flex",
+                                        alignItems: "center",
+                                        flexShrink: 0
+                                    }}
+                                />
                             ))}
-                        </Stack>
+                        </Box>
                     </CardContent>
                 </Box>
             </Card>
