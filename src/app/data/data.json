@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "projectName": "ReuseVandy",
+      "projectDescription": "Full-stack marketplace mobile app with an AWS backend and MySQL database.",
+      "bulletPoints": [
+        "Built and deployed a React Native app for a campus reuse marketplace.",
+        "Implemented backend services on AWS with a MySQL database.",
+        "Ensured reliable data flow between the mobile client and backend."
+      ],
+      "skillsUsed": ["React Native", "AWS", "MySQL", "Node.js", "API Design", "Git"],
+      "dateRange": "Sep 2024 - Dec 2024",
+      "githubUrl": "https://github.com/BobbyMi11er/Reuse-Vandy"
+    },
+    {
       "projectName": "MissionSafe",
       "projectDescription": "Implemented backend components and interfaces for a nonprofit safety app as part of Change Plus Plus.",
       "bulletPoints": [
@@ -11,18 +23,6 @@
       "skillsUsed": ["MongoDB", "Node.js", "Express", "JavaScript", "REST APIs", "Git", "Agile"],
       "dateRange": "Jan 2024 - May 2024",
       "githubUrl": "https://github.com/ChangePlusPlusVandy/NewMissionSafe-frontend"
-    },
-    {
-      "projectName": "Backpacks For The Streets",
-      "projectDescription": "Developed mobile app features focused on authentication and content posting for a nonprofit.",
-      "bulletPoints": [
-        "Developed React Native user registration flow.",
-        "Built post creation and display system.",
-        "Implemented authentication with Firebase Authentication."
-      ],
-      "skillsUsed": ["React Native", "Firebase Authentication", "JavaScript", "Git"],
-      "dateRange": "Sep 2023 - Dec 2023",
-      "githubUrl": "https://github.com/ChangePlusPlusVandy/bfts-frontend"
     },
     {
       "projectName": "LLM Email Digest",
@@ -48,16 +48,16 @@
       "githubUrl": "https://github.com/BobbyMi11er/Ticket-Earner"
     },
     {
-      "projectName": "ReuseVandy",
-      "projectDescription": "Full-stack marketplace mobile app with an AWS backend and MySQL database.",
+      "projectName": "Backpacks For The Streets",
+      "projectDescription": "Developed mobile app features focused on authentication and content posting for a nonprofit.",
       "bulletPoints": [
-        "Built and deployed a React Native app for a campus reuse marketplace.",
-        "Implemented backend services on AWS with a MySQL database.",
-        "Ensured reliable data flow between the mobile client and backend."
+        "Developed React Native user registration flow.",
+        "Built post creation and display system.",
+        "Implemented authentication with Firebase Authentication."
       ],
-      "skillsUsed": ["React Native", "AWS", "MySQL", "Node.js", "API Design", "Git"],
-      "dateRange": "Jan 2023 - May 2023",
-      "githubUrl": "https://github.com/BobbyMi11er/Reuse-Vandy"
+      "skillsUsed": ["React Native", "Firebase Authentication", "JavaScript", "Git"],
+      "dateRange": "Sep 2023 - Dec 2023",
+      "githubUrl": "https://github.com/ChangePlusPlusVandy/bfts-frontend"
     }
     ],
 
@@ -107,84 +107,5 @@
       },
       "dateRange": "Aug 2023 - Present"
     }
-    ],
-
-    "coursework" : [
-        {
-            "projectName" : "Principles of Software Engineering",
-            "projectDescription" : "Software Engineer Intern",
-            "bulletPoints" : [],
-            "skillsUsed" : ["Git", "React"],
-            "image":
-                {
-                    "src": "",
-                    "name": ""
-                }
-        },
-        {
-            "projectName" : "Database Management Systems",
-            "projectDescription" : "Software Engineer Intern",
-            "bulletPoints" : [],
-            "skillsUsed" : ["Git", "React"],
-            "image":
-                {
-                    "src": "",
-                    "name": ""
-                }
-        },
-        {
-            "projectName" : "Intermediate Software Design",
-            "projectDescription" : "Software Engineer Intern",
-            "bulletPoints" : [],
-            "skillsUsed" : ["Git", "React"],
-            "image":
-                {
-                    "src": "",
-                    "name": ""
-                }
-        },
-        {
-            "projectName" : "Artificial Intelligence",
-            "projectDescription" : "Software Engineer Intern",
-            "bulletPoints" : [],
-            "skillsUsed" : ["Git", "React"],
-            "image":
-                {
-                    "src": "",
-                    "name": ""
-                }
-        },
-        {
-            "projectName" : "Project in Autonomous Vehicles",
-            "projectDescription" : "Software Engineer Intern",
-            "bulletPoints" : [],
-            "skillsUsed" : ["Git", "React"],
-            "image":
-                {
-                    "src": "",
-                    "name": ""
-                }
-        },
-        {
-            "projectName" : "Principles of Modern Programming",
-            "projectDescription" : "Software Engineer Intern",
-            "bulletPoints" : [],
-            "skillsUsed" : ["Git", "React"],
-            "image":
-                {
-                    "src": "",
-                    "name": ""
-                }
-        }, {
-            "projectName" : "Introduction to Cloud Computing",
-            "projectDescription" : "Software Engineer Intern",
-            "bulletPoints" : [],
-            "skillsUsed" : ["Git", "React"],
-            "image":
-                {
-                    "src": "",
-                    "name": ""
-                }
-        }
-    ]
+  ]
 }

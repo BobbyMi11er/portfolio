@@ -27,14 +27,17 @@ export const DEV: Developer = {
     interests: [
         "Golf",
         "Formula 1",
+        "Sailing"
     ],
     skills: [
+        "Java",
+        "SpringBoot",
         "C++",
         "Python",
         "JavaScript",
         "React",
         "Node",
         "MongoDB",
-        "git",
+        "git"
     ]
 }
