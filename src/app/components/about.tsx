@@ -16,7 +16,7 @@ export default function About() {
 
         const contacts = linkListToStr("contact", data.contact);
 
-    const resumeStr = `<p style="margin-left: 6%; color: #d1d5db">resume=<a style="color: cyan" href=${data.resume.link} target="_blank" rel="noopener noreferrer">"${data.resume.text}"</a>,`;
+        const resumeStr = `<p style="margin-left: 6%; color: #d1d5db">resume=<a style="color: cyan" href=${data.resume.link} target="_blank" rel="noopener noreferrer">"${data.resume.text}"</a>,`;
 
         // Smooth scroll handler
         const scrollToSection = (id: string) => {
@@ -51,6 +51,19 @@ export default function About() {
             </p>
         );
 
+        const courseworkStr = (
+            <p style={{ marginLeft: "6%", color: "#d1d5db" }}>
+                coursework=
+                <a
+                    style={{ color: "cyan", cursor: "pointer" }}
+                    onClick={() => scrollToSection("coursework")}
+                >
+                    "Scroll to Coursework"
+                </a>
+                ,
+            </p>
+        );
+
         const interests = strListToStr("interests", data.interests);
 
         const skills = strListToStr("skills", data.skills);
@@ -62,6 +75,7 @@ export default function About() {
                 <div dangerouslySetInnerHTML={{ __html: resumeStr }} />
                 {projectsStr}
                 {workExpStr}
+                {courseworkStr}
                 <div dangerouslySetInnerHTML={{ __html: interests }} />
                 <div dangerouslySetInnerHTML={{ __html: skills }} />
                 <div

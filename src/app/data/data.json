@@ -108,5 +108,21 @@
       },
       "dateRange": "Aug 2023 - Present"
     }
+  ],
+  "coursework": [
+    { "name": "Principles of Software Engineering" },
+    { "name": "Algorithms" },
+    { "name": "Data Structures" },
+    { "name": "Operating Systems" },
+    { "name": "Database Management Systems" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Discrete Structures" },
+    { "name": "Computer Architecture" },
+    { "name": "Linear Algebra" },
+    { "name": "Project in Autonomous Vehicles" },
+    { "name": "Applied Machine Learning" },
+    { "name": "Modern Programming Techniques (Rust)" },
+    { "name": "Cloud Computing" },
+    {"name": "Technical Communication"}
   ]
 }

@@ -38,7 +38,7 @@ export default function ProjectElement(project: ProjectProps) {
                             ))}
                         </List>
                         {project.obj.githubUrl && (
-                            <Box textAlign="center" mt={2}>
+                            <Box textAlign="center">
                                 <a href={project.obj.githubUrl} target="_blank" rel="noopener noreferrer" style={{ color: '#0366d6', textDecoration: 'none', fontWeight: 'bold' }}>
                                     View on GitHub
                                 </a>

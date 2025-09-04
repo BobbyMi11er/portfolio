@@ -1,6 +1,7 @@
 import { Box, Divider, Stack, Typography } from "@mui/material";
-import data from "../data/data.json"
+import data from "../data/data.json";
 import ProjectElement from "../components/projectElement";
+import Coursework from "./coursework";
 
 export default interface ProjectObj {
     projectName : string,

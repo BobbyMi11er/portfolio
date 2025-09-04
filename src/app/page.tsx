@@ -4,6 +4,7 @@ import Bio from "./components/bio";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 import Jobs from "./pages/jobs";
+import Coursework from "./pages/coursework";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Bio />
       <Projects />
       <Jobs />
+      <Coursework />
       <Contact />
     </Stack>
   );

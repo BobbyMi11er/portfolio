@@ -3,8 +3,10 @@ export interface Developer {
     education: string,
     contact: CustomLink[],
     resume: CustomLink,
-    interests:string[],
-    skills:string[],
+    interests: string[],
+    skills: string[],
+    classesTaken: string[],
+    classesInProgress: string[],
 }
 
 export interface CustomLink {
@@ -39,5 +41,22 @@ export const DEV: Developer = {
         "Node",
         "MongoDB",
         "git"
+    ],
+    classesTaken: [
+        "Principles of Software Engineering",
+        "Algorithms",
+        "Data Structures",
+        "Operating Systems",
+        "Database Management Systems",
+        "Artificial Intelligence",
+        "Discrete Structures",
+        "Computer Architecture",
+        "Linear Algebra"
+    ],
+    classesInProgress: [
+        "Project in Autonomous Vehicles",
+        "Applied Machine Learning",
+        "Modern Programming Techniques",
+        "Cloud Computing"
     ]
 }
